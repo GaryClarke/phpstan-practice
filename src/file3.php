@@ -8,6 +8,11 @@ class ExampleClass
     {
         // Do something
     }
+
+    public function undefinedMethod(): void
+    {
+        // Do something
+    }
 }
 
 $example = new ExampleClass();
