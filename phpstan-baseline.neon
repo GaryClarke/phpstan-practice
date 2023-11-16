@@ -1,0 +1,11 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Variable \\$undefinedVariable might not be defined\\.$#"
+			count: 1
+			path: src/file1.php
+
+		-
+			message: "#^Call to an undefined method ExampleClass\\:\\:undefinedMethod\\(\\)\\.$#"
+			count: 1
+			path: src/file3.php
